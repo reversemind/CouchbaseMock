@@ -21,7 +21,7 @@ import org.couchbase.mock.CouchbaseMock;
 import org.couchbase.mock.control.CommandStatus;
 import org.couchbase.mock.control.MockCommand;
 import org.couchbase.mock.http.query.QueryServer;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;;
 
 public class ResetQueryStateHandler extends MockCommand {
     @NotNull

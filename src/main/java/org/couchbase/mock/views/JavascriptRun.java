@@ -1,7 +1,7 @@
 package org.couchbase.mock.views;
 
 import org.couchbase.mock.util.ReaderUtils;
-import org.jetbrains.annotations.Nullable;
+import javax.validation.constraints.Null;
 import org.mozilla.javascript.*;
 
 import java.io.IOException;
@@ -44,7 +44,7 @@ public class JavascriptRun {
      * @param cx The current execution context
      * @return The raw result set
      */
-    NativeObject execute(NativeObject options, Scriptable mappedRows, @Nullable Scriptable reducer, Context cx) {
+    NativeObject execute(NativeObject options, Scriptable mappedRows, @Null Scriptable reducer, Context cx) {
         Object[] args = new Object[] { options, mappedRows, reducer };
         if (args[2] == null) {
             args[2] = Undefined.instance;

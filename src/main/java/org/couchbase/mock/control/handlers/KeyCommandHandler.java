@@ -24,7 +24,7 @@ import org.couchbase.mock.control.MissingRequiredFieldException;
 import org.couchbase.mock.control.MockCommand;
 import org.couchbase.mock.memcached.KeySpec;
 import org.couchbase.mock.memcached.VBucketInfo;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;;
 
 /**
  *

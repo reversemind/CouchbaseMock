@@ -17,8 +17,8 @@ package org.couchbase.mock.views;
 
 import org.couchbase.mock.JsonUtils;
 import org.couchbase.mock.memcached.Item;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
+import javax.validation.constraints.NotNull;;
+import javax.validation.constraints.Null;
 import org.mozilla.javascript.*;
 
 import javax.script.ScriptException;
@@ -51,7 +51,7 @@ public class View {
      * @param reduce The JavaScript reduce function, as a String
      * @throws org.mozilla.javascript.EcmaError if the map or reduce functions could not be parsed
      */
-    public View(@NotNull String name, @NotNull String map, @Nullable String reduce) throws ScriptException {
+    public View(@NotNull String name, @NotNull String map, @Null String reduce) throws ScriptException {
         this.name = name;
         this.mapSource = map;
         this.reduceSource = reduce;

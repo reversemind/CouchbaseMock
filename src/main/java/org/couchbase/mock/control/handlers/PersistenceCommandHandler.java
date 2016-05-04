@@ -27,7 +27,7 @@ import com.google.gson.JsonObject;
 import org.couchbase.mock.CouchbaseMock;
 import org.couchbase.mock.control.CommandStatus;
 import org.couchbase.mock.memcached.*;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;;
 
 /**
  * Handler for various out-of-band key manipulations

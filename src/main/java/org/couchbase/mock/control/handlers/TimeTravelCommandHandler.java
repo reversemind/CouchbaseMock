@@ -6,9 +6,10 @@ import org.couchbase.mock.control.MissingRequiredFieldException;
 import org.couchbase.mock.control.MockCommand;
 import org.couchbase.mock.Info;
 import org.couchbase.mock.control.CommandStatus;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 public final class TimeTravelCommandHandler extends MockCommand {
+
     @NotNull
     @Override
     public CommandStatus execute(@NotNull CouchbaseMock mock, @NotNull Command command, @NotNull JsonObject payload) {

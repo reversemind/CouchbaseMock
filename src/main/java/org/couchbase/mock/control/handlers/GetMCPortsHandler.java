@@ -8,7 +8,7 @@ import org.couchbase.mock.CouchbaseMock;
 import org.couchbase.mock.control.CommandStatus;
 import org.couchbase.mock.control.MockCommand;
 import org.couchbase.mock.memcached.MemcachedServer;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 /**
  * Needed to get a list of numeric ports for a given

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CouchbaseMock.iml" filepath="$PROJECT_DIR$/CouchbaseMock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/couchbase-mock.iml" filepath="$PROJECT_DIR$/couchbase-mock.iml" />
     </modules>
   </component>
 </project>
-

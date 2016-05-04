@@ -19,7 +19,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import org.couchbase.mock.CouchbaseMock;
 import org.couchbase.mock.control.handlers.*;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 import java.util.EnumMap;
 import java.util.HashMap;

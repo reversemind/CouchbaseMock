@@ -30,7 +30,7 @@ import org.couchbase.mock.memcached.KeySpec;
 import org.couchbase.mock.memcached.MemcachedServer;
 import org.couchbase.mock.memcached.VBucketInfo;
 import org.couchbase.mock.memcached.client.MemcachedClient;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

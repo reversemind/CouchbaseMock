@@ -19,7 +19,7 @@ package org.couchbase.mock.control.handlers;
 import com.google.gson.JsonObject;
 import org.couchbase.mock.CouchbaseMock;
 import org.couchbase.mock.control.CommandStatus;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;;
 
 /**
  * Created by mnunberg on 2/5/15.

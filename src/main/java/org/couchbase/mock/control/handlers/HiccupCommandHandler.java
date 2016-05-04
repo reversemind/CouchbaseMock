@@ -20,7 +20,7 @@ import org.couchbase.mock.CouchbaseMock;
 import org.couchbase.mock.control.CommandStatus;
 
 import org.couchbase.mock.memcached.MemcachedServer;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;;
 
 /**
  * Hiccup will let all servers sleep after sending a specific amount of data.

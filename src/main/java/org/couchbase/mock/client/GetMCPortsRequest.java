@@ -1,12 +1,12 @@
 package org.couchbase.mock.client;
 
-import org.jetbrains.annotations.Nullable;
+import javax.validation.constraints.Null;
 
 /**
  * @author Mark Nunberg
  */
 public class GetMCPortsRequest extends MockRequest {
-    public GetMCPortsRequest(@Nullable String bucket) {
+    public GetMCPortsRequest(@Null String bucket) {
         super();
         setName("get_mcports");
         if (bucket != null) {

@@ -23,7 +23,9 @@ import org.couchbase.mock.control.CommandStatus;
 import org.couchbase.mock.control.MockCommand;
 import org.couchbase.mock.control.MockCommandDispatcher;
 import org.couchbase.mock.memcached.protocol.CommandCode;
-import org.jetbrains.annotations.NotNull;
+
+// import javax.validation.constraints.NotNull;;
+import javax.validation.constraints.NotNull;
 
 /**
  * This returns information about the current mock's supported

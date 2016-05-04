@@ -28,7 +28,7 @@ import org.couchbase.mock.memcached.Item;
 import org.couchbase.mock.memcached.KeySpec;
 import org.couchbase.mock.memcached.MemcachedServer;
 import org.couchbase.mock.memcached.VBucketInfo;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;;
 
 /**
  *

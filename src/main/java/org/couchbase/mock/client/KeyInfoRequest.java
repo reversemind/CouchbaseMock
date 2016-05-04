@@ -15,7 +15,7 @@
  */
 package org.couchbase.mock.client;
 
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 import java.util.List;
 

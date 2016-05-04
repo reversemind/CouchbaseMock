@@ -1,6 +1,18 @@
-# Keep the entries sorted to reduce the risk for a merge conflict
+target
+target-ide
+target-eclipse
+.classpath
+.project
+.settings
+.springBeans
 *~
+*.iml
+*.ipr
+*.iws
 /target/
 /bin/
 /.settings/
-/.idea/workspace.xml
+/.idea/
+build/
+.gradle
+**/src/generated/

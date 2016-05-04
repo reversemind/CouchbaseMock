@@ -17,7 +17,7 @@ package org.couchbase.mock.control;
 
 import com.google.gson.JsonObject;
 import org.couchbase.mock.CouchbaseMock;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 /**
  * The MockCommand class is the base class for all commands

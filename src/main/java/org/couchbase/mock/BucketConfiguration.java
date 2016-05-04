@@ -15,7 +15,7 @@
  */
 package org.couchbase.mock;
 
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 public class BucketConfiguration {
     /** The number of VBuckets the bucket should contain */

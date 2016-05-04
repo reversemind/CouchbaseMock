@@ -21,7 +21,7 @@ import org.couchbase.mock.Bucket;
 import org.couchbase.mock.CouchbaseMock;
 import org.couchbase.mock.control.CommandStatus;
 import org.couchbase.mock.control.MockCommand;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 /**
  * This is an abstract class which operates on a specific

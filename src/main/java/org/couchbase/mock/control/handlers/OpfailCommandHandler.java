@@ -25,7 +25,7 @@ import org.couchbase.mock.control.CommandStatus;
 import org.couchbase.mock.control.MockCommand;
 import org.couchbase.mock.memcached.MemcachedServer;
 import org.couchbase.mock.memcached.protocol.ErrorCode;
-import org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;;
 
 public class OpfailCommandHandler extends MockCommand {
 

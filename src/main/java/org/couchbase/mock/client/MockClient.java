@@ -16,7 +16,7 @@
 package org.couchbase.mock.client;
 
 import com.google.gson.Gson;
-import  org.jetbrains.annotations.NotNull;
+import javax.validation.constraints.NotNull;
 
 import java.io.*;
 import java.net.InetSocketAddress;

@@ -1,0 +1,36 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+group = 'org.couchbase'
+version = "$version"
+
+description = """CouchbaseMock"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    baseName = 'couchbase-mock'
+    version = "$version"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+
+    compile "javax.validation:validation-api:$validationApiVersion"
+    compile "org.apache.httpcomponents:httpcore:$httpcoreVersion"
+    compile "com.google.code.gson:gson:$gsonVersion"
+
+    compile "org.tukaani:xz:$tukaaniVersion"
+    compile "org.mozilla:rhino:$mozillaRhinoVersion"
+    compile "com.googlecode.json-simple:json-simple:$googleJsonSimpleVersion"
+
+    // Test
+    testCompile "junit:junit:$junitVersion"
+    testCompile "com.couchbase.client:couchbase-client:$couchbaseClientVersion"
+}
