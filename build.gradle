@@ -32,5 +32,6 @@ dependencies {
 
     // Test
     testCompile "junit:junit:$junitVersion"
-    testCompile "com.couchbase.client:couchbase-client:$couchbaseClientVersion"
+    testCompile "com.couchbase.client:java-client:$couchbaseClientVersion"
+
 }
