@@ -53,7 +53,8 @@ public abstract class ClientBaseTest extends TestCase {
     protected CouchbaseMock couchbaseMock;
 
     protected final CouchbaseConnectionFactoryBuilder cfb = new CouchbaseConnectionFactoryBuilder();
-    protected CouchbaseClient client;
+//    protected CouchbaseClient client;
+    protected com.couchbase.client.java.Bucket client;
     protected CouchbaseConnectionFactory connectionFactory;
 
     public ClientBaseTest() {}

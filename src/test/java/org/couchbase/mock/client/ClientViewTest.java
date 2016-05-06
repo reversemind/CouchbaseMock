@@ -21,6 +21,7 @@
  */
 
 package org.couchbase.mock.client;
+
 import com.couchbase.client.CouchbaseClient;
 import com.couchbase.client.CouchbaseConnectionFactory;
 import com.couchbase.client.CouchbaseConnectionFactoryBuilder;
@@ -28,9 +29,11 @@ import com.couchbase.client.internal.HttpCompletionListener;
 import com.couchbase.client.internal.HttpFuture;
 import com.couchbase.client.protocol.views.*;
 import com.couchbase.client.protocol.views.ViewOperation.ViewCallback;
+
 import net.spy.memcached.PersistTo;
 import net.spy.memcached.internal.OperationFuture;
 import net.spy.memcached.ops.OperationStatus;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpVersion;
 import org.apache.http.entity.StringEntity;

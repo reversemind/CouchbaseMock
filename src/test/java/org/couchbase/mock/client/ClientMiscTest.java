@@ -75,6 +75,7 @@ public class ClientMiscTest extends ClientBaseTest {
 
             String key = getValidKeyFor(i);
             OperationFuture ft = client.set(key, value);
+            client.se
             ft.get();
             assertTrue(ft.getStatus().isSuccess());
 
